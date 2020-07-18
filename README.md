@@ -84,7 +84,7 @@ def loginSC():
 	os.system('clear')
 	print"\033[1;97mSilahkan login SC nya dulu bosque\n"
 	username = bacot("\033[1;96m[*] \033[1;97mUsername \033[1;91m: \033[1;92m")
-	password = kimaq("\033[1;96m[*] \033[1;97mPassword \033[1;91m: \033[1;92m")
+	password = asw("\033[1;96m[*] \033[1;97mPassword \033[1;91m: \033[1;92m")
 	if username =="tuan" and password =="erson04":
 		print"\033[1;96m[✓] \033[1;92mLogin success"
 		time.sleep(1)
